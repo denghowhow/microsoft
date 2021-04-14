@@ -24,7 +24,7 @@
         .container {
             width: 1600px;
             height: 100%;
-            margin: auto;
+            /* margin: auto; */
             /* background-color: aqua; */
         }
 
@@ -405,7 +405,51 @@
             footer .container div{
                 margin-right: 10px;
             }
-        }  
+        }
+        @media(max-width:1080px){
+            nav{
+                width: 90%;
+                height: 55px;
+            }
+            main{
+                width: 100%;
+                height: 3000px;
+            }
+            .container{
+                width: 1075px;
+                height: 100%;
+                margin: auto;
+            }
+            main .container .otherbuys{
+                width: 85%;
+                height: 934px;
+                display: flex;
+                justify-content:space-around;
+                flex-wrap: wrap;
+            }
+            main .container .otherbuys .other{
+                width: 50%;
+            }            
+            main .container .otherbuys .other .other1,main .container .otherbuys .other .other2 ,main .container .otherbuys .other .other3, main .container .otherbuys .other .other4{
+                width: 75%;
+                height: 200px;
+            }
+            h2{
+                margin: 50px auto 0px 50px;
+            }
+            main .container .R4 .R4bot{
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content:space-around;
+                flex-wrap: wrap;
+                /* background-color:blue; */
+            }
+            main .container .R4 .R4bot .Business{
+                width: 50%;
+                height: 200px;
+            }
+        } 
     </style>
 </head>
 
