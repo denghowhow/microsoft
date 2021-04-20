@@ -24,7 +24,7 @@
         .container {
             width: 1600px;
             height: 100%;
-            /* margin: auto; */
+            margin: auto;
             /* background-color: aqua; */
         }
 
@@ -236,7 +236,7 @@
             background-size: cover;
             /* background-position: center; */
             background-repeat: no-repeat;
-            width: 100%;
+            /* width: 100%; */
             height: 667px;
         }
         /* R4 開始 */
@@ -368,9 +368,15 @@
         li{
             list-style-type:none;           
         }
-        @media(max-width:1366px){
+        @media(max-width:1600px){
+            nav .container{
+                width: 80%;
+            }
+            picture{
+                width: 80%;
+            }
             .container {
-            width: 1245px;
+            width: 90%;
             height: 100%;
             margin: auto;
             /* background-color: aqua; */
@@ -398,17 +404,17 @@
             /* justify-content:center; */
             }
             footer .container{
-                width: 1245px;
+                width: 100%;
                 height: 324px;
-                /* background-color: blue; */
+                background-color:rgb(242, 242, 242);
             }
             footer .container div{
                 margin-right: 10px;
             }
         }
         @media(max-width:1080px){
-            nav{
-                width: 90%;
+            nav .container{
+                width: 95%;
                 height: 55px;
             }
             main{
@@ -416,12 +422,13 @@
                 height: 3000px;
             }
             .container{
-                width: 1075px;
+                width: 100%;
                 height: 100%;
                 margin: auto;
             }
+
             main .container .otherbuys{
-                width: 85%;
+                width: 100%;
                 height: 934px;
                 display: flex;
                 justify-content:space-around;
@@ -434,6 +441,7 @@
                 width: 75%;
                 height: 200px;
             }
+    
             h2{
                 margin: 50px auto 0px 50px;
             }
@@ -448,6 +456,13 @@
             main .container .R4 .R4bot .Business{
                 width: 50%;
                 height: 200px;
+            }
+
+            footer .container .Related{
+                background-color:rgb(242, 242, 242);
+                height: 100vh;
+                display: flex;
+                align-items: center;
             }
         } 
     </style>
